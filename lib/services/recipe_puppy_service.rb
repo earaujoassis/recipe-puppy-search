@@ -23,7 +23,6 @@ class RecipePuppyService
     path = URI('/api')
     path.query = URI.encode_www_form({q: query, p: page})
     request = Net::HTTP::Get.new(path.to_s)
-    puts path.to_s
     request.add_field('Accept', 'application/json')
     begin
       response = remote_connection.request(request)
