@@ -2,6 +2,9 @@
 
 > A web search interface for the RecipePuppy API
 
+This project was developed as a technical test and a proof of concept for a selection process (September 2017).
+**It is not maintained anymore**.
+
 ## Setup & Running
 
 Please make sure you have Ruby 2.4.x installed (if you're using RVM, there's already a
